@@ -1,0 +1,94 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+}
+
+
+
+/* Custom page footer */
+.footer {
+  margin-top:19px;
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+.turret-debug {
+  /*display:none;*/
+    display: block;
+  float: right;
+}
+.turret-drag-area {
+  width:450px;
+  height: 450px;
+  background-color: #aaa;
+
+}
+.turret-laser-active {
+  width:450px;
+  height: 450px;
+ 
+}
+.turret-pointer {
+  display: block;
+  position:relative;
+  top:0px;
+  left:0px;
+  color:red;
+  width:15px;
+  height: 15px;
+  color:;
+}
+.turret-laser-active .turret-pointer{
+   color: #aa1111;
+}
